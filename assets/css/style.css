@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body {
+  background-image: linear-gradient(to right, #F8F4FF, #EFF0F4);
+  font-family: "Montserrat", sans-serif;
+}
+
+.main__img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+.main__doctor {
+  display: flex;
+  align-items: center;
+}
+.main__name-doctor {
+  margin-left: 1rem;
+}
+.main__title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #464646;
+}
+.main__text {
+  color: #A3A3A3;
+  font-size: 14px;
+}
+.main__h3 {
+  padding: 0.5rem;
+}
+.main__container {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.main__img-patients {
+  display: inline-block;
+}
+.main__info {
+  display: inline-block;
+  line-height: 0;
+  margin-left: 0.5rem;
+}
+.main__patients {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.main__name-patients {
+  font-weight: 700;
+  font-size: 14px;
+  color: #464646;
+}
+.main__consultation {
+  display: flex;
+  align-items: center;
+}
+.main__consultation p {
+  font-size: 12px;
+  color: #A3A3A3;
+  margin-left: 0.5rem;
+}
+.main__time {
+  font-size: 12px;
+  color: #464646;
+  font-weight: 500;
+  text-align: left;
+}
+.main__buttons {
+  text-align: center;
+  border-top: 1px solid #A3A3A3;
+  margin-top: 1rem;
+}
+.main__video, .main__audio, .main__address {
+  background-color: #FFB050;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main__audio {
+  background-color: #FFFFFF;
+  color: #464646;
+  border: 1px solid #A3A3A3;
+  margin-left: 1rem;
+}
+.main__address {
+  background-color: #4894FF;
+  width: 100%;
+}
+
+@media screen and (min-width: 697px) and (max-width: 1104px) {
+  .main__container {
+    display: inline-block;
+    width: 40%;
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 1105px) {
+  .main__container {
+    display: inline-block;
+    width: 25%;
+    margin: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
